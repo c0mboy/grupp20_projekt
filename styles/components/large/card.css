@@ -1,0 +1,149 @@
+/* Ändrat*/
+.card{
+    background-color: hsla(0, 0%, 91%, 0.589);
+    border-radius: 1rem;
+    margin-top: 15.3%;
+    box-shadow: inset 1px 1px 1px hsla(0, 0%, 100%, 0.667),
+    inset -1px -1px 1px hsla(var(--hue-1), 40%, 20%, 0.188),
+    5px 5px 10px hsla(var(--hue-1), 40%, 20%, 0.188);
+    display: grid;
+/*     flex-direction: column;
+ */    }
+
+    /* -----------Header-------- */
+
+    .card__header {
+    background: linear-gradient(to bottom right, hsl(var(--hue-1), 30%, 40%), hsl(var(--hue-1), 45%, 55%));
+    color: var(--white);
+    border-radius: 1rem 1rem 0rem 0rem;
+    padding-top: 11.5%;
+    padding-left: 3%
+
+    
+    }
+    .card__header__h2 {
+      font-size: 3rem;
+      padding-bottom: .5%;
+      padding-top: .3%;
+    }
+    .card__header__paragraph {
+      padding-bottom: 2%;
+      font-weight: 600;
+    }
+
+
+     /* -----------Text-block-------- */
+
+    
+    .card__text-block {
+    background-color: hsl(var(--hue-4), 30%, 80%);
+    padding-bottom: 9%;
+    padding-top: 7%;
+    }
+    
+    .card__text-block__paragraph{
+      padding-left: 3%;
+      padding-top: 2%;
+      font-size: 1.5rem;
+
+    }
+
+     /* -----------Footer-------- */
+
+    .card__footer {
+      
+      background-color: hsl(var(--hue-4), 30%, 80%);
+      border-top: 2px solid hsl(var(--hue-1), 30%, 40%);
+      justify-content: right;
+      display: flex;
+      border-radius: 0rem 0rem 1rem 1rem;
+    }
+    .card__footer__button {
+      width: 40%;
+      
+      margin-right: 4%;
+      border-radius: 1rem;
+      margin-top: 4.5%;
+      margin-bottom: 4.5%;
+      text-align: center;
+      color: var(--white);
+      box-shadow:  inset 1px 1px 1px , hsl(var(--hue-1), 30%, 40%)
+      inset -1px -1px 1px hsla(var(--hue-1), 40%, 20%, 0.188),
+      5px 5px 10px hsla(var(--hue-1), 40%, 20%, 0.188);
+      background-color: hsl(var(--hue-1), 30%, 40%);
+    }
+    .card__footer__button--paragraph {
+      padding: 6%;
+    }
+
+     /* -----------Icon-------- */
+
+    .card__icon{
+        width: 18.5%;
+        background: linear-gradient(to bottom right, hsl(var(--hue-1), 30%, 40%), hsl(var(--hue-1), 45%, 55%));
+        border-radius: 50% ;
+        justify-content: center;
+        padding: 2.5%;
+        position:absolute;
+        top: 18.5%;
+        right: 4%;
+        box-shadow: inset 1px 1px 1px hsl(var(--hue-1), 30%, 40%),
+                    inset -1px -1px 1px hsla(var(--hue-1), 40%, 20%, 0.188),
+                    5px 5px 10px hsla(var(--hue-1), 40%, 20%, 0.188);
+
+    }
+    .card__icon--position {
+        top: 13.5%;
+    }
+     /* -------------------Rött kort----------------- */
+    .card--danger header{
+      background: linear-gradient(to bottom right, hsl(var(--hue-3), 30%, 40%), hsl(var(--hue-3), 45%, 55%)); 
+      padding-top: 8.5%;
+      
+    }
+    .card--danger header p {
+      padding-bottom: 2.5%; 
+    }
+    .card--danger button {
+      background-color: hsl(var(--hue-3), 30%, 40%);
+    }
+    .card--danger icon {
+      background: linear-gradient(to bottom right, hsl(var(--hue-3), 30%, 40%), hsl(var(--hue-3), 45%, 55%));
+      box-shadow: inset 1px 1px 1px hsl(var(--hue-3), 30%, 40%),
+                    inset -1px -1px 1px hsla(var(--hue-3), 40%, 20%, 0.188),
+                    5px 5px 10px hsla(var(--hue-3), 40%, 20%, 0.188);
+    }
+    .card--danger footer {
+      border-color: hsl(var(--hue-3), 30%, 40%) ;
+    }
+
+    /* -------------------Grönt kort----------------- */
+    .card--success{
+       
+      margin-top: 15%;
+    }
+      
+  .card--success header{
+    background: linear-gradient(to bottom right, hsl(var(--hue-4), 30%, 40%), hsl(var(--hue-4), 45%, 55%));
+    padding-top: 9.7%;
+  }
+  .card--success h2 {
+      padding-bottom: initial;
+  }
+  .card--success header p {
+    padding-top: initial;
+}
+  .card--success button {
+    background-color: hsl(var(--hue-4), 30%, 40%);
+  }
+  .card--success icon {
+    background: linear-gradient(to bottom right, hsl(var(--hue-4), 30%, 40%), hsl(var(--hue-4), 45%, 55%));
+    box-shadow: inset 1px 1px 1px hsl(var(--hue-4), 30%, 40%),
+                  inset -1px -1px 1px hsla(var(--hue-4), 40%, 20%, 0.188),
+                  5px 5px 10px hsla(var(--hue-4), 40%, 20%, 0.188);
+  }
+  .card--success footer {
+    border-color: hsl(var(--hue-4), 30%, 40%) ;
+  }
+    
+    
